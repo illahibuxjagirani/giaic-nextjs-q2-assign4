@@ -1,9 +1,12 @@
+import Arrivals from "@/components/Arrivals";
+import Hero from "@/components/Hero";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-slate-400">
-      <h1>Hello World</h1>
+    <div className="">
+      <Hero/>
+      <Arrivals/>
     </div>
   );
 }
